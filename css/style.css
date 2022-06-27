@@ -1,0 +1,53 @@
+/* regole header */
+
+#header_top{
+    background-color: black;
+    height: 36px;
+    display: flex;
+    justify-content: end;
+}
+
+#sony_logo{
+    height: 100%;
+    width: 90px;
+    padding: 0.3rem 0.5rem
+}
+
+/* header_bot */
+
+#header_bot{
+    height: 64px;
+}
+
+#header_bot a{
+    text-decoration: none;
+}
+
+.list_container{
+    display: inline-block;
+}
+
+#header_bot ul{
+    list-style: none;
+    display: flex;
+}
+
+/* jumbotron */
+.jumbo{
+    overflow: hidden;
+}
+
+.jumbo .j_img{
+    height: 594px;/*regola di debug*/
+    background-image:url("../img/jumbo-bg.png");
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* regole di debug */
+
+.dbg_button{
+    height: 30px;
+    width: 100px;
+    background-color: yellow;
+}
