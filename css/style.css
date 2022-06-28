@@ -33,15 +33,69 @@
 }
 
 /* jumbotron */
-.jumbo{
-    overflow: hidden;
-}
 
 .jumbo .j_img{
-    height: 594px;/*regola di debug*/
     background-image:url("../img/jumbo-bg.png");
+}
+
+/* it takes two */
+
+#it_takes_two .it2_img{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+/* nuove uscite */
+
+#nuove_uscite{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+/* playstation plus */
+
+#play_station_plus{
+    background-color: #bcbebb;
+}
+
+/* sconti play store */
+
+
+/* playstation now */
+#play_station_now{
+    background-color: #161c3b;
+}
+
+/* footer */
+
+footer{
+    background-color: #00439c;
+}
+
+footer ul a{
+    text-decoration: none;
+}
+
+footer .ms_globe{
+    width: 20px;
+}
+
+footer .ms_ps_logo{
+    width: 96px;
+}
+
+footer .ms_sie{
+    width: 130px;
+}
+/* regole generali */
+
+.ms_game_banner{
+    height: 594px;
     background-size: auto 100%;
     background-position: center;
+}
+
+.banner{
+    overflow: hidden;
 }
 
 /* regole di debug */
