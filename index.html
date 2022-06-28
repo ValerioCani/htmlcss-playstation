@@ -9,74 +9,120 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
-            <div id="header_top">
-                <div id="sony_logo">
-                    <img class="img-fluid" src="img/sony_logo.svg" alt="logo sony">
+        <header>  
+            <div class="position-fixed top-0 left-0 w-100  bg-white">
+                <div id="header_top">
+                    <div id="sony_logo">
+                        <img class="img-fluid" src="img/sony_logo.svg" alt="logo sony">
+                    </div>
+                </div>
+                <nav id="header_bot">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid d-flex justify-content-between">
+                            <a href="#">
+                                <img src="img/play_logo.svg" alt="logo Playstation">
+                            </a>
+
+                            <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon ms_icons_white"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item m-3">
+                                        <a data-bs-toggle="collapse"  href="#navbar_top_collapse, #navbar_bot_collapse_giochi" role="button" aria-expanded="false" >Giochi</a>
+                                    </li>
+    
+                                    <li class="nav-item m-3">
+                                        <a data-bs-toggle="collapse"  href="#navbar_top_collapse, #navbar_bot_collapse_hardware  " role="button" aria-expanded="false" aria-controls="navbar_top_collapse navbar_bot_collapse_hardware">Hardware</a>
+                                    </li>
+    
+                                    <li class="nav-item m-3">
+                                        <a data-bs-toggle="collapse"  href="#navbar_top_collapse, #navbar_bot_collapse_servizi" role="button" aria-expanded="false" aria-controls="navbar_top_collapse navbar_bot_collapse_servizi">Servizi</a>
+                                    </li>
+    
+                                    <li class="nav-item m-3">
+                                        <a data-bs-toggle="collapse"  href="#navbar_top_collapse, #navbar_bot_collapse_novita" role="button" aria-expanded="false" aria-controls="navbar_top_collapse navbar_bot_collapse_novita">Novità</a>
+                                    </li>
+    
+                                    <li class="nav-item m-3">
+                                        <a data-bs-toggle="collapse"  href="#navbar_top_collapse, #navbar_bot_collapse_faiacquisti" role="button" aria-expanded="false" aria-controls="navbar_top_collapse navbar_bot_collapse_faiacquisti">Fai Acquisti</a>
+                                    </li>
+    
+                                    <li class="nav-item m-3">
+                                        <a data-bs-toggle="collapse"  href="#navbar_top_collapse, #navbar_bot_collapse_supporto" role="button" aria-expanded="false" aria-controls="navbar_top_collapse navbar_bot_collapse_supporto">Supporto</a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                
+                                <span class="nav-item m-3">
+                                    <a data-bs-toggle="collapse"  href="#navbar_ps" role="button" aria-expanded="false" aria-controls="navbar_top_collapse">My PlayStation</a>
+                                </span>
+
+                                <button></button>
+
+                                <div>
+                                    <img src="img/lens.svg" alt="cerca">
+                                </div>
+
+                            </div>
+    
+                        </div>
+                    </nav>
+                </nav>
+                <div> <!-- cpollapse -->
+                    <div class="collapse multi-collapse text-center" id="navbar_top_collapse">
+                        <div class="d-inline-block mx-3 ms_menu_img">
+                            <img src="img/play-menu-ico.png" alt="PS5">
+                            <p>PlayStation5</p>
+                        </div>
+                        <div class="d-inline-block mx-3 ms_menu_img">
+                            <img src="img/play-menu-ico.png" alt="PS4">
+                            <p>PlayStation4</p>
+                        </div>
+                        <div class="d-inline-block mx-3 ms_menu_img">
+                            <img src="img/play-menu-ico.png" alt="PS3">
+                            <p>PlayStation3</p>
+                        </div>
+                    </div>
+    
+                    <div class="collapse multi-collapse" id="navbar_bot_collapse_giochi">
+                        Some placeholder 
+                    </div>
+    
+                    <div class="collapse multi-collapse" id="navbar_bot_collapse_hardware">
+                       This panel is 
+                    </div>
+    
+                    <div class="collapse multi-collapse" id="navbar_bot_collapse_servizi">
+                        Some placeholder trigger.
+                    </div>
+    
+                    <div class="collapse multi-collapse" id="navbar_bot_collapse_novita">
+                         example. This panel 
+                    </div>
+    
+                    <div class="collapse multi-collapse" id="navbar_bot_collapse_faiacquisti">
+                        Shidden by default 
+                    </div>
+    
+                    <div class="collapse multi-collapse" id="navbar_bot_collapse_supporto">
+                        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
                 </div>
             </div>
-            <nav id="header_bot">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid d-flex justify-content-between">
-                        <a href="#">
-                            <img src="img/play_logo.svg" alt="logo Playstation">
-                        </a>
-
-                        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon ms_icons_white"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-
-                                <li class="nav-item m-3">
-                                    giochi
-                                </li>
-                        </div>
-
-                    </div>
-                </nav>
-            </nav>
             <div class="jumbo banner">
                 <div class="container-fluid">
-                    <div class="j_img ms_game_banner row">
+                    <div class="j_img ms_game_banner row p-1 p-sm-3 p-md-4 p-lg-5">
                         <div class="col-12 col-lg-4">
                             <img class="img-fluid" src="img/returnal-hero-banner-logo.png" alt="">
+                            <div class="ms_title text-center">
+                                <h2>Rompi il cerchio</h2>
+                                <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva PS5.</p>
+                                <span><a class="btn btn-danger rounded-pill" href="#">porca madonna</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -394,3 +440,17 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>
 </html>
+
+<!-- <p>
+    <a data-bs-toggle="collapse" href="#navbar_ps" role="button" aria-expanded="false" aria-controls="navbar_top_collapse navbar_bot_collapse">Toggle first element</a>
+</p>
+  
+    <div class="collapse multi-collapse" id="navbar_top_collapse">
+        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    </div>
+   
+    
+    <div class="collapse multi-collapse" id="navbar_bot_collapse">
+        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    </div> -->
+  

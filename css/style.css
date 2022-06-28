@@ -21,6 +21,7 @@
 
 #header_bot a{
     text-decoration: none;
+    color: black;
 }
 
 .list_container{
@@ -32,12 +33,27 @@
     display: flex;
 }
 
+header .ms_menu_img img{
+    width: 50px;
+}
+
+header .ms_menu_img p{
+    font-size: 0.9rem;
+    font-weight: 00;
+}
 /* jumbotron */
+.jumbo{
+    margin-top: 100px;
+    color: #fff;
+}
 
 .jumbo .j_img{
     background-image:url("../img/jumbo-bg.png");
 }
 
+header .ms_title span a{
+    background-color: #ED1C24;
+}
 /* it takes two */
 
 #it_takes_two .it2_img{
