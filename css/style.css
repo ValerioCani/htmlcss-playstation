@@ -41,6 +41,14 @@ header .ms_menu_img p{
     font-size: 0.9rem;
     font-weight: 00;
 }
+
+#header_bot .ms_chevron{
+    width: 10px;
+}
+
+#header_bot .ms_btn_header{
+    background-color: #363636;
+}
 /* jumbotron */
 .jumbo{
     margin-top: 100px;
@@ -51,12 +59,41 @@ header .ms_menu_img p{
     background-image:url("../img/jumbo-bg.png");
 }
 
-header .ms_title span a{
-    background-color: #ED1C24;
+.jumbo .ms_thumbnail{
+    outline: #fff solid 2px;
+    outline-offset: 4px;
+    transition: 0.3s;
+    position:relative;
 }
+
+.jumbo .ms_thumb_cont:hover>.ms_thumbnail{
+    outline-color: #0070D1;
+    bottom: 20px;
+    z-index: -1;
+}
+
+/* ps5 */
+
+#ps5 .ms_accessories .ms_thumbnail{
+    border-bottom: solid 2px #fff;
+}
+
+#ps5 .ms_accessories .ms_thumb_cont:hover>.ms_thumbnail{
+    border-bottom: solid 2px #0070D1;
+
+}
+
+.ms_opacity{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#ps5 .ms_accessories .ms_thumb_cont:hover>.ms_thumbnail>.ms_opacity{
+    background-color: rgba(255, 255, 255, 0);
+}
+
 /* it takes two */
 
-#it_takes_two .it2_img{
+#it_takes_two.it2_img{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
 
@@ -103,15 +140,33 @@ footer .ms_sie{
     width: 130px;
 }
 /* regole generali */
-
-.ms_game_banner{
-    height: 594px;
-    background-size: auto 100%;
-    background-position: center;
+.ms_thumbnail{\
+    z-index: -1;
 }
 
-.banner{
-    overflow: hidden;
+.ms_title h6{
+    color: #0070D1;
+}
+
+.ms_title h4{
+    color: #727272;
+}
+
+.ms_title h2{
+    font-size: 45px;
+}
+.ms_btn_blue{
+    background-color: #0070D1;
+}
+
+.ms_btn_red{
+    background-color: #ED1C24;
+    margin: 24px 0px;
+} 
+
+.ms_game_banner{
+    background-size: auto 100%;
+    background-position: center;
 }
 
 /* regole di debug */
