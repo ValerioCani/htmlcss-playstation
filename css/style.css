@@ -110,6 +110,13 @@ header .ms_menu_img p{
     background-color: #bcbebb;
 }
 
+#play_station_plus .ms_btn_grey{
+    border-color: #D9DADC;
+    background-color: #D9DADC;
+    color: #0070D1;
+    font-weight: bold;
+}
+
 /* sconti play store */
 
 
@@ -140,7 +147,7 @@ footer .ms_sie{
     width: 130px;
 }
 /* regole generali */
-.ms_thumbnail{\
+.ms_thumbnail{
     z-index: -1;
 }
 
@@ -150,6 +157,7 @@ footer .ms_sie{
 
 .ms_title h4{
     color: #727272;
+    font-size: 18px;
 }
 
 .ms_title h2{
